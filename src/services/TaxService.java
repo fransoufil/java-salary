@@ -3,7 +3,9 @@ package services;
 public class TaxService {
 	
 	public double tax(double amount) {
-		return amount * 0.2;
+		double val = amount * 0.02;
+		System.out.printf("Tax do funcionario = %.2f%n", val);
+		return val;
 	}
 
 }
